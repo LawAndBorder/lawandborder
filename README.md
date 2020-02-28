@@ -8,11 +8,9 @@
     pip install --upgrade zgulde
     ```
 
-1. Download [the border crossing entry data here](https://data.transportation.gov/Research-and-Statistics/Border-Crossing-Entry-Data/keg4-3bc2/data).
+1. `data.csv` contains the raw data from https://data.transportation.gov/Research-and-Statistics/Border-Crossing-Entry-Data/keg4-3bc2/data.
 
-2. Save the file as `data.csv`
-
-3. Use the `acquire.py` script to get the data
+2. Use the `acquire.py` script to get the data
 
     ```python
     import acquire
@@ -33,7 +31,7 @@
 
 ## Project Planning First Steps
 
-- Pull in the data from https://data.transportation.gov/Research-and-Statistics/Border-Crossing-Entry-Data/keg4-3bc2/data
+- Original data is from https://data.transportation.gov/Research-and-Statistics/Border-Crossing-Entry-Data/keg4-3bc2/data
 - Define our goals of analysis
 - Define what each observation (each row) contains
 - Define what kinds of models we can or should produce.
