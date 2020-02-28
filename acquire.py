@@ -5,7 +5,7 @@ def get_data():
     df = (
         pd.read_csv("./data.csv")
         .cleanup_column_names()
-        .rename(columns={"measure": "crossing_method"})
+        .rename(columns={"measure": "crossing_method", "value": "n_crossings"})
     )
     df.date = pd.to_datetime(df.date)
     canada = df[df.border == "US-Canada Border"]
